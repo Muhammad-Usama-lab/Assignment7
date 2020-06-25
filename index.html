@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="all.css">
+    
+    <title>Calculator</title>
+</head>
+<body>
+
+    <section>
+
+        <div class="maindiv">
+            <h4 class="font-Mont lgapping center">Calculator</h4>
+            <input type="text" id="in">
+            <p id="label" class="font-Mont">0</p>
+            <div class="function clear">
+                <button class="font-Mont"  onclick="percent();" id="per">% Per</button>
+                <button class="font-Mont" onclick="square();" id="root">√x</button>
+                
+                <button class="font-Mont" onclick="backspace();" id="back"> <<--</button>
+                <button class="font-Mont" onclick="fac();" id="factorial"> n!</button>
+            </div>
+           
+            <div class="buttons789">
+
+                
+                <button class="font-Mont" onclick="call('7');" id="7">7</button>
+                <button class="font-Mont" onclick="call('8');" id="8">8</button>
+                <button class="font-Mont" onclick="call('9');" id="9">9</button>
+                
+                <button class="font-Mont" onclick="opr('+');" id="plus" style="float: right;">+</button>
+
+            </div>
+            <div class="buttons456">
+                
+                <button class="font-Mont "onclick="call('4');" id="4">4</button>
+                <button class="font-Mont"onclick="call('5');" id="5">5</button>
+                <button class="font-Mont"onclick="call('6');" id="6">6</button>
+                
+                <button class="font-Mont"onclick="opr('-');" id="minus" style="float: right;">-</button>
+                
+
+            </div>
+            <div class="buttons123">
+                <button class="font-Mont" onclick="call('1');" id="1">1</button>
+                <button class="font-Mont" onclick="call('2');" id="2">2</button>
+                <button class="font-Mont" onclick="call('3');" id="3">3</button>
+                
+                
+                <button class="font-Mont" onclick="opr('x');" id="multiply" style="float: right;">x</button>
+
+            </div>
+            <div class="buttons123">
+                <button class="font-Mont" id="0" onclick="call('0');">0</button>
+                <button class="font-Mont" id="dot" onclick="call('.');">.</button>
+                <button class="font-Mont" id="C"onclick="clearall();">C</button>
+                <button class="font-Mont" id="divide" style="float: right;"onclick="opr('/');">/</button>
+
+            </div>
+            <div class="btns-opr"> 
+            <button class="font-Mont" id="equals" onclick="calculate();">=</button>  
+            
+            </div>
+
+            
+            
+
+
+
+
+
+
+        </div>
+
+    </section>
+    <script src="app.js"></script>
+
+</body>
+</html>

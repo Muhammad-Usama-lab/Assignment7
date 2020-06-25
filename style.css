@@ -1,0 +1,67 @@
+
+section{
+    
+}
+section .maindiv{
+
+    height: 70vh;
+    width: 300px;
+    background-color:#c8d6e5;
+}
+.maindiv input[type="TEXT"]{
+
+margin: 10px 0px 4px 15px;
+font-size: 17px;
+padding: 5px;
+outline: none;
+
+}
+.maindiv h4{
+    margin: 0;
+    padding: 2px;
+}
+.maindiv .function{
+    margin: 0px 15px;
+    outline: none;
+}
+.buttons123 button, .buttons456 button, .buttons789 button{
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #000;
+    font-size: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+#sin, #cos, #tan{
+    width: 55px;
+}
+button:hover{
+    background-color: #8395a7;
+    color: white;
+    transition: all .4s ease;
+}
+.btns-opr button{
+
+    width: 40px;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #000;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+#equals{
+    width: 280px;
+
+}
+#label{
+    border: 1px solid rgba(206, 206, 206, 0.904);
+    border-radius: 7px;
+    width: 50%;
+    background-color: #8395a7;
+    color: white;
+    padding: 5px;
+    margin: 2px;
+    float: right;
+}
